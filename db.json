@@ -1,6 +1,6 @@
 {
   "students": [
-    { "id": 1, "name": "Aarav Sharma", "rollNumber": "STU001", "batchId": 1 },
+    { "id": 1, "name": "Aarav Sharma", "rollNumber": "STU001", "batchId": 1,"email":"aaravgg@gmail.com" },
     { "id": 2, "name": "Diya Mehra", "rollNumber": "STU002", "batchId": 1 },
     { "id": 3, "name": "Rohan Verma", "rollNumber": "STU003", "batchId": 2 },
     { "id": 4, "name": "Ishita Singh", "rollNumber": "STU004", "batchId": 2 },
