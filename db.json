@@ -1,0 +1,81 @@
+{
+  "students": [
+    { "id": 1, "name": "Aarav Sharma", "rollNumber": "STU001", "batchId": 1 },
+    { "id": 2, "name": "Diya Mehra", "rollNumber": "STU002", "batchId": 1 },
+    { "id": 3, "name": "Rohan Verma", "rollNumber": "STU003", "batchId": 2 },
+    { "id": 4, "name": "Ishita Singh", "rollNumber": "STU004", "batchId": 2 },
+    { "id": 5, "name": "Kabir Gupta", "rollNumber": "STU005", "batchId": 3 }
+  ],
+  "batches": [
+    { "id": 1, "name": "Batch A", "year": "2025" },
+    { "id": 2, "name": "Batch B", "year": "2025" },
+    { "id": 3, "name": "Batch C", "year": "2025" }
+  ],
+  "subjects": [
+    { "id": 1, "name": "Mathematics" },
+    { "id": 2, "name": "Science" },
+    { "id": 3, "name": "English" }
+  ],
+  "teachers": [
+    { "id": 1, "name": "Mr. Raj Malhotra", "subjectId": 1 },
+    { "id": 2, "name": "Ms. Priya Kapoor", "subjectId": 2 },
+    { "id": 3, "name": "Mrs. Neha Sinha", "subjectId": 3 }
+  ],
+  "examTypes": [
+    { "id": 1, "type": "Midterm" },
+    { "id": 2, "type": "Final" },
+    { "id": 3, "type": "Unit Test" }
+  ],
+  "exams": [
+    { "id": 101, "title": "Mathematics Final Exam", "date": "2025-03-15", "subjectId": 1, "typeId": 2 },
+    { "id": 102, "title": "Science Final Exam", "date": "2025-03-20", "subjectId": 2, "typeId": 2 },
+    { "id": 103, "title": "English Final Exam", "date": "2025-03-25", "subjectId": 3, "typeId": 2 }
+  ],
+  "examResults": [
+    { "examId": 101, "studentId": 1, "status": "Appeared", "marks": 88 },
+    { "examId": 101, "studentId": 2, "status": "Appeared", "marks": 76 },
+    { "examId": 101, "studentId": 3, "status": "Absent" },
+    { "examId": 101, "studentId": 4, "status": "Appeared", "marks": 91 },
+    { "examId": 101, "studentId": 5, "status": "Appeared", "marks": 65 },
+
+    { "examId": 102, "studentId": 1, "status": "Appeared", "marks": 81 },
+    { "examId": 102, "studentId": 2, "status": "Absent" },
+    { "examId": 102, "studentId": 3, "status": "Appeared", "marks": 70 },
+    { "examId": 102, "studentId": 4, "status": "Appeared", "marks": 85 },
+    { "examId": 102, "studentId": 5, "status": "Appeared", "marks": 78 },
+
+    { "examId": 103, "studentId": 1, "status": "Appeared", "marks": 90 },
+    { "examId": 103, "studentId": 2, "status": "Appeared", "marks": 82 },
+    { "examId": 103, "studentId": 3, "status": "Appeared", "marks": 68 },
+    { "examId": 103, "studentId": 4, "status": "Absent" },
+    { "examId": 103, "studentId": 5, "status": "Appeared", "marks": 74 }
+  ],
+  "grades": [
+    { "min": 90, "max": 100, "grade": "A+" },
+    { "min": 80, "max": 89, "grade": "A" },
+    { "min": 70, "max": 79, "grade": "B" },
+    { "min": 60, "max": 69, "grade": "C" },
+    { "min": 0, "max": 59, "grade": "F" }
+  ],
+  "examRemarks": [
+    { "examId": 101, "studentId": 1, "remark": "Excellent grasp of concepts." },
+    { "examId": 101, "studentId": 2, "remark": "Needs more practice." },
+    { "examId": 101, "studentId": 4, "remark": "Outstanding performance!" },
+    { "examId": 103, "studentId": 5, "remark": "Improved a lot." }
+  ],
+  "resultSummaries": [
+    { "studentId": 1, "term": "Term 1", "totalMarks": 259, "average": 86.3, "status": "Pass" },
+    { "studentId": 2, "term": "Term 1", "totalMarks": 158, "average": 79.0, "status": "Pass" },
+    { "studentId": 3, "term": "Term 1", "totalMarks": 138, "average": 69.0, "status": "Pass" },
+    { "studentId": 4, "term": "Term 1", "totalMarks": 176, "average": 88.0, "status": "Pass" },
+    { "studentId": 5, "term": "Term 1", "totalMarks": 217, "average": 72.3, "status": "Pass" }
+  ],
+  "attendance": [
+    { "studentId": 1, "date": "2025-03-15", "status": "Present" },
+    { "studentId": 2, "date": "2025-03-15", "status": "Present" },
+    { "studentId": 3, "date": "2025-03-15", "status": "Absent" },
+    { "studentId": 4, "date": "2025-03-15", "status": "Present" },
+    { "studentId": 5, "date": "2025-03-15", "status": "Present" }
+  ]
+ 
+}
